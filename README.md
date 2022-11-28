@@ -11,7 +11,7 @@
 `~+` se refere a variável ${PWD} <br>
 `~-` se refere à ${OLDPWD} <br>
 
-# Processos executados pelo shell ao ler um script
+# Interpretação de comandos pelo shell ao ler um script
 
 **Quoting** 
 
@@ -19,7 +19,31 @@ Os single-quotes (') preservam o sentido literal de tudo. <br>
 Os double-quotes (") aceitam caracteres especiais, como ${<ENV_VARIABLE>}. <br>
 Os backslashes (\) escapam um caracter especial. <br>
 
-![Screenshot from 2022-11-28 12-23-46](https://user-images.githubusercontent.com/80921933/204315763-cda03a14-f4d6-401f-ae36-a5f185ead7bf.png)
+**Interpretação de comandos**
+
+O shell interpreta os comandos com os 5 seguintes passos:
+
+- **Tokenisation**
+- **Command identification**
+- **Shell expansions**
+- **Quote removal**
+- **Redirections**
+
+A etapa de **Tokenisation** consiste em separar **Words** de **Operators**.
+
+![Screenshot from 2022-11-28 18-23-33](https://user-images.githubusercontent.com/80921933/204384005-27864c1e-f418-4bb7-9e49-0fd30e9edac6.png)
+
+A etapa de **Command identification** visa identificar os comandos na String em questão. Os comandos são limitados por um **Control Operator**, podendo ser |, ||, ;, ;;, &, Newline, etc... Redirections **NÃO SÃO CONTROL OPERATORS.** Eles ainda são tratados como parte do comando.
+
+![Screenshot from 2022-11-28 18-52-32](https://user-images.githubusercontent.com/80921933/204389187-7c146da6-72c2-4991-9d0c-f01d84243f59.png)
+
+A etapa de **Shell expansions** consiste em aplicar as expansions, que acontecem em uma ordem pré-definida. Segundo a imagem abaixo, um **parameter expansion** nunca poderá estar dentro de um **brace expansion**, já que os **brace expansions** acontecem primeiro. A ordem de expansions acontece da esquerda para a direita, porém, respeita a hierarquia abaixo:
+
+![Screenshot from 2022-11-28 18-59-26](https://user-images.githubusercontent.com/80921933/204389884-58c38f7b-7688-417a-aabc-7b379dfa25f4.png)
+
+Ainda dentro da etapa, vale explicar que o **Word Splitting** se refere aos separadores que serão usados para aceitar argumentos. A variável de ambiente IFS armazena o valor dos separados usados por padrão, podendo ser acessados pelo comando `echo "${IFQ@Q}"`. 
+
+O **Globbing** se refere às expansões do tipo *.txt, data?.txt, etc...
 
 # Manipulando o valor de uma variável
 
