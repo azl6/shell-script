@@ -11,6 +11,15 @@
 `~+` se refere a variável ${PWD} <br>
 `~-` se refere à ${OLDPWD} <br>
 
+# Processos executados pelo shell ao ler um script
+
+**Quoting** 
+
+Os single-quotes (') preservam o sentido literal de tudo. <br>
+Os double-quotes (") aceitam caracteres especiais, como ${<ENV_VARIABLE>}. <br>
+Os backslashes (\) escapam um caracter especial. <br>
+
+![Screenshot from 2022-11-28 12-23-46](https://user-images.githubusercontent.com/80921933/204315763-cda03a14-f4d6-401f-ae36-a5f185ead7bf.png)
 
 # Manipulando o valor de uma variável
 
