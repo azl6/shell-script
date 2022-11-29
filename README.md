@@ -80,6 +80,9 @@ Também podemos escrever um texto antes do input com a flag -p "<PRE_INPUT_TEXT>
 
 ![Screenshot from 2022-11-28 22-03-50](https://user-images.githubusercontent.com/80921933/204412994-2b39c9a0-d5c6-4fa0-ae47-8cb8ba5cccb9.png)
 
+Alternativamente ao comando `read`, podemos usar o `select`, que fornece opções personalizadas para que o usuário selecione. A variável de ambiente **PS3** indica a pergunta que será feita no `select`. Se ela não for informada, o que aparecerá será um **#!**
+
+![Screenshot from 2022-11-28 23-03-00](https://user-images.githubusercontent.com/80921933/204420416-75785137-6c00-4b85-bc2f-b6a91a28a8bc.png)
 
 # Manipulando o valor de uma variável
 
