@@ -68,6 +68,18 @@ Alguns parâmetros são reservados, como o $0 e $#
 
 ![Screenshot from 2022-11-28 21-45-55](https://user-images.githubusercontent.com/80921933/204410841-8ff4f2b7-fe06-4cb9-a13a-16d6573619cc.png)
 
+Para ler um input, podemos utilizar o comando `read`, que por padrão, aguarda por um input de usuário e o armazena na variável ${REPLY}
+
+![Screenshot from 2022-11-28 21-55-11](https://user-images.githubusercontent.com/80921933/204412141-4116bdf2-c12d-4e8f-8a73-207e7ca03ccf.png)
+
+Alternativamente, o `read` pode ser usado para armazenar os inputs em diferentes variáveis
+
+![Screenshot from 2022-11-28 21-54-18](https://user-images.githubusercontent.com/80921933/204412197-e7a1cafe-bb8d-4b91-b41a-b1d10adefdc5.png)
+
+Também podemos escrever um texto antes do input com a flag -p "<PRE_INPUT_TEXT>", ex:
+
+![Screenshot from 2022-11-28 22-03-50](https://user-images.githubusercontent.com/80921933/204412994-2b39c9a0-d5c6-4fa0-ae47-8cb8ba5cccb9.png)
+
 
 # Manipulando o valor de uma variável
 
