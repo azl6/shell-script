@@ -49,6 +49,25 @@ O **Globbing** se refere às expansões do tipo *.txt, data?.txt, etc...
 
 **Etapa 5:** A etapa de **Redirections** Executa os redirections.
 
+# Input de usuário
+
+Podemos referenciar os inputs passados pelo usuário em cada posição com **$\<POSICAO>** dentro do script. 
+
+![Screenshot from 2022-11-28 21-14-38](https://user-images.githubusercontent.com/80921933/204407559-ffdaead3-a0df-4605-8a26-7744b98e66b7.png)
+
+**Special parameters:**
+
+Alguns parâmetros são reservados, como o $0 e $#
+
+- O **$0** referencia o nome do script executado.
+- O **$#** referencia a quantidade de parâmetros informados no input.
+
+![Screenshot from 2022-11-28 21-25-40](https://user-images.githubusercontent.com/80921933/204408533-62b1dbab-106a-4d43-970e-3a933f83c1ab.png)
+
+- O **$@** referencia todos os parâmetros informados
+
+![Screenshot from 2022-11-28 21-45-55](https://user-images.githubusercontent.com/80921933/204410841-8ff4f2b7-fe06-4cb9-a13a-16d6573619cc.png)
+
 
 # Manipulando o valor de uma variável
 
