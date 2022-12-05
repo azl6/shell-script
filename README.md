@@ -151,8 +151,8 @@ Exemplos:
 
 ![Screenshot from 2022-12-05 16-29-45](https://user-images.githubusercontent.com/80921933/205726059-9fa21149-067a-439e-9ce6-65898a172dce.png)
 
-**-f** verifica se o arquivo é um arquivo <br>
-**-d** verifica se o arquivo é um diretório
+**-f** verifica se o arquivo existe e se é um arquivo <br>
+**-d** verifica se o arquivo é existe e é um diretório
  
 ![Screenshot from 2022-12-05 16-31-37](https://user-images.githubusercontent.com/80921933/205726212-ffd01e8a-e241-4f68-9461-770fa76518bc.png)
 
@@ -163,6 +163,12 @@ Exemplos:
 # Lógica e if statements
 
 ![Screenshot from 2022-12-05 16-47-54](https://user-images.githubusercontent.com/80921933/205729490-250dd515-9a78-474d-93c8-1d1347010247.png)
+
+![Screenshot from 2022-12-05 18-14-59](https://user-images.githubusercontent.com/80921933/205744230-699b6809-af12-4a34-a1e4-6a325904d3e3.png)
+
+# Lógica e switch cases
+
+![Screenshot from 2022-12-05 18-25-04](https://user-images.githubusercontent.com/80921933/205745750-2e7b2820-1a5c-4025-81a1-bc8a49323760.png)
 
 # Aritmética
 
