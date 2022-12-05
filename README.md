@@ -88,6 +88,82 @@ Alternativamente ao comando `read`, podemos usar o `select`, que fornece opçõe
 
 ![Screenshot from 2022-11-26 19-36-54](https://user-images.githubusercontent.com/80921933/204111529-50d2b0f3-4a65-4358-b599-a97883e5493c.png)
 
+# Lógica e comparando Integers
+
+- O operador **;** permite que concatenemos múltiplos comandos em uma só linha. Os comandos rodam de forma sequencial, independentemente do resultado do comando anterior.
+
+```
+echo 123; echo 456; echo 789
+```
+
+- O operador **&** indica que o comando informado será rodado em background <br>
+- O operador **&&** indica que o comando à direita do operador só rodará **SE O ANTERIOR FOI BEM SUCEDIDO (retornou 0)**
+
+Exemplo onde o segundo comando rodará com sucesso:
+```
+echo 123 && echo 456
+```
+
+Exemplo onde o segundo comando **NÃO** rodará com sucesso:
+```
+ech 123 && echo 456
+```
+
+- O operador **||** indica que o comando à direita do operador só rodará **SE O ANTERIOR DEU ERRO (retornou != 0)**
+
+A lógica no Shell Script é definida parcialmente por operadores, como:
+
+**(SOMENTE PARA INTEGERS)**
+
+**-eq** = equals <br>
+**-ne** = not equals <br>
+**-gt** = greater than <br>
+**-lt** = less than <br>
+**-geq** = greater than or equal to <br>
+**-leq** = less than or equal to
+
+Os números de true/false também se invertem no Shell Script, sendo eles:
+
+**0** = FALSE <br>
+**1** = TRUE
+
+Sendo assim, podemos definir lógica com o operador **[\<LÓGICA_AQUI>]**.
+
+Também podemos referenciar a saída do nosso condicional com o operador **$?**
+
+Exemplos:
+
+![Screenshot from 2022-12-05 16-13-16](https://user-images.githubusercontent.com/80921933/205723020-e00e481b-a1b3-4aae-bf1e-d2c652b58173.png)
+
+# Lógica e comparando Strings
+
+**=** verifica se duas Strings são iguais <br>
+**!=** verifica se duas String são diferentes
+
+![Screenshot from 2022-12-05 16-27-24](https://user-images.githubusercontent.com/80921933/205725543-33af80e2-8900-41b3-8656-70ac5a27e800.png)
+
+
+**-z** verifica se uma String é vazia
+
+![image](https://user-images.githubusercontent.com/80921933/205725671-316916be-a024-47d1-90e2-5be333aa0097.png)
+
+**-e** verifica se um arquivo existe
+
+![Screenshot from 2022-12-05 16-29-45](https://user-images.githubusercontent.com/80921933/205726059-9fa21149-067a-439e-9ce6-65898a172dce.png)
+
+**-f** verifica se o arquivo é um arquivo <br>
+**-d** verifica se o arquivo é um diretório
+ 
+![Screenshot from 2022-12-05 16-31-37](https://user-images.githubusercontent.com/80921933/205726212-ffd01e8a-e241-4f68-9461-770fa76518bc.png)
+
+**-x** verifica se um arquivo é executável
+
+![Screenshot from 2022-12-05 16-32-34](https://user-images.githubusercontent.com/80921933/205726703-c95b4cab-da52-4706-b15c-1cd4b6aa33e1.png)
+
+# Lógica e if statements
+
+![Screenshot from 2022-12-05 16-47-54](https://user-images.githubusercontent.com/80921933/205729490-250dd515-9a78-474d-93c8-1d1347010247.png)
+
 # Aritmética
 
 **Arithmethic expansion** - Realiza operações aritméticas. Não consegue apresentar números decimais. Para tal fim, usamos o programa **bc**
