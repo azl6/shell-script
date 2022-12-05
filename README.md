@@ -41,7 +41,7 @@ O shell interpreta os comandos com os 5 seguintes passos:
 
 ![Screenshot from 2022-11-28 18-59-26](https://user-images.githubusercontent.com/80921933/204389884-58c38f7b-7688-417a-aabc-7b379dfa25f4.png)
 
-Ainda dentro da etapa, vale explicar que o **Word Splitting** se refere aos separadores que serão usados para aceitar argumentos. A variável de ambiente IFS armazena o valor dos separados usados por padrão, podendo ser acessados pelo comando `echo "${IFQ@Q}"`. **WORDPLITTING SÓ ACONTECE FORA DE DOUBLE-QUOTES!**
+Ainda dentro da etapa, vale explicar que o **Word Splitting** se refere aos separadores que serão usados para aceitar argumentos. A variável de ambiente IFS armazena o valor dos separados usados por padrão, podendo ser acessados pelo comando `echo "${IFS@Q}"`. **WORDPLITTING SÓ ACONTECE FORA DE DOUBLE-QUOTES!**
 
 O **Globbing** se refere às expansões do tipo *.txt, data?.txt, etc...
 
