@@ -168,7 +168,13 @@ Exemplos:
 
 # Lógica e switch cases
 
+(É possível utilizar um pipe (**|**) dentro do switch-case para especificar que pode ser um valor **OU** outro)
+
 ![Screenshot from 2022-12-05 18-25-04](https://user-images.githubusercontent.com/80921933/205745750-2e7b2820-1a5c-4025-81a1-bc8a49323760.png)
+
+# While loops
+
+![Screenshot from 2022-12-06 00-14-04](https://user-images.githubusercontent.com/80921933/205804135-02cd28de-2795-4a01-a0d9-9f3cc898fedb.png)
 
 # Aritmética
 
