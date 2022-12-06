@@ -178,12 +178,23 @@ Exemplos:
 
 # While loops com utilização de argumentos e getopts
 
-- Falar sobre o getopts
-- Falar sobre o $OPTARG 
-- Colocar um exemplo próprio mais simples
+O **getopts** é utilizado para pegar os options informados para o comando. A cada vez que ele roda, ele pega o próximo option informado. O parâmetro (key) é armazenado na variável que vem após o comando (nos exemplos abaixo, na variável opt).
 
-![Screenshot from 2022-12-06 00-35-45](https://user-images.githubusercontent.com/80921933/205806826-9419b732-9c5f-4aad-96df-974026038709.png)
+Exemplo da utilização em um comando que recebe dois parâmetros, **a** e **b**
 
+```
+getopts "ab" opt
+```
+
+Para informar que os options podem receber argumentos, inserimos um **:** em sua frente.
+
+```
+getopts "a:b:" opt
+```
+
+Caso tenhamos inserido a opção de passar argumentos para os options (o operador **:** dentro do **getopts**), podemos usar a variável **$OPTARG** para referenciar cada argumento, dentro de um while que percorre os options. 
+
+![Screenshot from 2022-12-06 12-38-11](https://user-images.githubusercontent.com/80921933/205956627-442ef86e-ceab-4046-b652-b3581f63e6f9.png)
 
 # Aritmética
 
