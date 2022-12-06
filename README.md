@@ -176,6 +176,15 @@ Exemplos:
 
 ![Screenshot from 2022-12-06 00-14-04](https://user-images.githubusercontent.com/80921933/205804135-02cd28de-2795-4a01-a0d9-9f3cc898fedb.png)
 
+# While loops com utilização de argumentos e getopts
+
+- Falar sobre o getopts
+- Falar sobre o $OPTARG 
+- Colocar um exemplo próprio mais simples
+
+![Screenshot from 2022-12-06 00-35-45](https://user-images.githubusercontent.com/80921933/205806826-9419b732-9c5f-4aad-96df-974026038709.png)
+
+
 # Aritmética
 
 **Arithmethic expansion** - Realiza operações aritméticas. Não consegue apresentar números decimais. Para tal fim, usamos o programa **bc**
