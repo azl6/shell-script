@@ -228,6 +228,22 @@ Resultará nisso
 
 ![image](https://user-images.githubusercontent.com/80921933/206257764-c78ccfb0-ac1d-4846-a0f1-4d145d2509c4.png)
 
+# Debugging com Shellcheck
+
+Shellcheck é um programa que pode ser usado para encontrar erros nos scripts.
+
+Para instalá-lo, basta rodar
+
+```
+sudo apt install shellcheck
+```
+
+Sua sintaxe para verificação se scripts é 
+
+```
+shellcheck \<SCRIPT_AQUI>
+```
+
 
 # Interpretação de comandos pelo shell ao ler um script
 
