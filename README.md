@@ -169,6 +169,38 @@ Até esse momento, ainda não entendi o motivo do redirect do **$1**, mas basica
 ![Screenshot from 2022-12-07 09-09-02](https://user-images.githubusercontent.com/80921933/206175819-ce022edf-33e7-4700-9787-f9f8c404fbd5.png)
 
 
+# Arrays
+
+As arrays podem ser criadas da seguinte forma, com seus elementos separados por espaço
+
+![image](https://user-images.githubusercontent.com/80921933/206219095-dc669660-1491-4e7e-91d2-d35008ea8414.png)
+
+Podemos printar um elemento de um array da seguinte forma
+
+![image](https://user-images.githubusercontent.com/80921933/206219634-67e13dfb-1739-49e5-96ce-47cf0d559936.png)
+
+Podemos printar todos os elementos de um array com o operador **@**, e manipular da mesma forma que manipulamos strings
+
+![image](https://user-images.githubusercontent.com/80921933/206220423-c5ee5791-aec4-4d7e-9d72-80f939d80d87.png)
+
+Podemos adicionar elementos ao array com o operador **+=**
+
+![image](https://user-images.githubusercontent.com/80921933/206221292-91d108da-ba89-4db5-8300-3539af34f16b.png) <br>
+![image](https://user-images.githubusercontent.com/80921933/206220998-ee055838-f3d9-4e16-a426-962a276a9c81.png)
+
+Podemos remover elementos de um array com o comando unset \<NOME_ARRAY>[\<POSICAO>]
+
+![Screenshot from 2022-12-07 13-10-14](https://user-images.githubusercontent.com/80921933/206230978-fa21c35f-9f00-4637-b26b-acb380d71b7b.png)
+
+Para substituir valores, usamos o operador de atribuição **=**
+
+![image](https://user-images.githubusercontent.com/80921933/206232072-3a512afd-9d6e-4c76-ad82-c24dbb93b34c.png)
+
+Para printar o index de um elemento, usamos o operador **!**
+
+![image](https://user-images.githubusercontent.com/80921933/206232542-258d2b70-8258-48bc-81bc-8dce86ba2452.png)
+
+
 # Interpretação de comandos pelo shell ao ler um script
 
 **Quoting** 
