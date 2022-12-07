@@ -200,6 +200,18 @@ Para printar o index de um elemento, usamos o operador **!**
 
 ![image](https://user-images.githubusercontent.com/80921933/206232542-258d2b70-8258-48bc-81bc-8dce86ba2452.png)
 
+# Readarray
+
+O comando readarray serve para criarmos um array a partir de conteúdos oriundos de outra fonte, como um arquivo.
+
+Deve ser sempre usado com a flag **-t** para evitar que os itens do array seja criado com caracteres especiais, como mostra a imagem abaixo
+
+![image](https://user-images.githubusercontent.com/80921933/206235103-4aa62149-87fa-4700-9713-3dad3faf7455.png)
+
+Para criar um array a partir de um comando, devemos usar o **process substitution** - \<(<COMANDO_AQUI>) para encapsular o comando, e o operador **<** para redirecionar o stdout do comando para o stdin do readarray. Segue um exemplo da criação de array a partir do comando **cat**
+
+![image](https://user-images.githubusercontent.com/80921933/206237405-1cee1568-e424-4d3a-a7f0-ef85a1902c88.png)
+
 
 # Interpretação de comandos pelo shell ao ler um script
 
