@@ -202,7 +202,7 @@ Para printar o index de um elemento, usamos o operador **!**
 
 # Readarray
 
-O comando readarray serve para criarmos um array a partir de conteúdos oriundos de outra fonte, como um arquivo.
+O comando readarray serve para criarmos um array a partir de conteúdos oriundos de outra fonte, como um arquivo, ou um comando.
 
 Deve ser sempre usado com a flag **-t** para evitar que os itens do array seja criado com caracteres especiais, como mostra a imagem abaixo
 
