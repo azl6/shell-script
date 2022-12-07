@@ -241,7 +241,7 @@ sudo apt install shellcheck
 Sua sintaxe para verificação se scripts é 
 
 ```
-shellcheck \<SCRIPT_AQUI>
+shellcheck <SCRIPT_AQUI>
 ```
 
 
