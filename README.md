@@ -212,6 +212,22 @@ Para criar um array a partir de um comando, devemos usar o **process substitutio
 
 ![image](https://user-images.githubusercontent.com/80921933/206237405-1cee1568-e424-4d3a-a7f0-ef85a1902c88.png)
 
+# For
+
+O for pode ser utilizado principalmente com arrays. 
+
+Supondo que temos a seguinte lista
+
+![image](https://user-images.githubusercontent.com/80921933/206256500-127f3481-34a1-4e7e-b401-9433af994ffa.png)
+
+A execução do seguinte script
+
+![image](https://user-images.githubusercontent.com/80921933/206256669-ec2cff44-a529-4426-95cf-d2d0aa5c1ed9.png)
+
+Resultará nisso
+
+![image](https://user-images.githubusercontent.com/80921933/206257764-c78ccfb0-ac1d-4846-a0f1-4d145d2509c4.png)
+
 
 # Interpretação de comandos pelo shell ao ler um script
 
