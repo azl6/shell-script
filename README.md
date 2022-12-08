@@ -23,6 +23,7 @@ Podemos referenciar os inputs passados pelo usuário em cada posição com **$\<
 Alguns parâmetros são reservados, como o $0 e $#
 
 - O **$0** referencia o nome do script executado.
+- O **$?** referencia a saída (0 ou 1) do último comando.
 - O **$#** referencia a quantidade de parâmetros informados no input.
 
 ![Screenshot from 2022-11-28 21-25-40](https://user-images.githubusercontent.com/80921933/204408533-62b1dbab-106a-4d43-970e-3a933f83c1ab.png)
