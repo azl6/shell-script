@@ -244,6 +244,25 @@ Sua sintaxe para verificação se scripts é
 shellcheck <SCRIPT_AQUI>
 ```
 
+# Comando scp para envio de arquivos a um servidor remoto
+
+Sintaxe geral do comando: **scp -i \<CHAVE> \<SOURCE> \<DESTINATION>**
+
+**Enviando arquivos:**
+
+```
+scp -i <CHAVE> <ARQUIVO> <USER>@<IP>:<DIR_TO_STORE>
+```
+
+![image](https://user-images.githubusercontent.com/80921933/206583952-bfaa1e32-3c96-4d11-b127-57fdc537dcee.png)
+
+**Recebendo arquivos:**
+
+Basta inverter o comando acima...
+
+```
+scp -i <CHAVE> <USER>@<IP>:<DIR_TO_GATHER_FILE_FROM> <ARQUIVO>
+```
 
 # Interpretação de comandos pelo shell ao ler um script
 
