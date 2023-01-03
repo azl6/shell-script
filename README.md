@@ -1,18 +1,30 @@
-# Informações gerais
+**Manipulando options** <br>
+[Options e input de usuário](#options-e-input-de-usuário) <br>
 
-**Command substitution** - Permite que capturemos a saída de um comando. A sintaxe é a seguinte: `$(<COMMAND>)`
+**Lógica** <br>
+[Lógica e comparando Integers](#lógica-e-comparando-integers) <br>
+[Lógica e comparando Strings](#lógica-e-comparando-strings) <br>
+[Lógica e if statements](#lógica-e-if-statements) <br>
+[Lógica e switch cases](#lógica-e-switch-cases) <br>
 
-![Screenshot from 2022-11-26 19-52-53](https://user-images.githubusercontent.com/80921933/204111735-350f4dae-5e52-4ce0-b4d7-59d6df1fc96e.png)
+**Iterações, percorrer listas e linhas de arquivos** <br>
+[While loops](#while-loops) <br>
+[While loops com utilização de argumentos e getopts](#while-loops-com-utilização-de-argumentos-e-getopts) <br>
+[While read para iterar por linhas de arquivos](#while-read-para-iterar-por-linhas-de-arquivos) <br>
+[Arrays](#arrays) <br>
+[Readarray](#readarray) <br>
+[For](#for) <br>
 
+**Etapas de verificação de um script pelo shell** <br>
+[Interpretação de comandos pelo shell ao ler um script](#interpretação-de-comandos-pelo-shell-ao-ler-um-script) <br>
 
-**Tilde expansion**: <br>
-`~` corresponde a home do usuário atual <br>
-`~<nomeUsuario>` se refere à home do usuário \<nomeUsuario> <br>
-`~+` se refere a variável ${PWD} <br>
-`~-` se refere à ${OLDPWD} <br>
+**Utilitários, manipulação de variáveis, aritmética** <br>
+[Debugging com Shellcheck](#debugging-com-shellcheck) <br>
+[Comando scp para envio de arquivos a um servidor remoto](#comando-scp-para-envio-de-arquivos-a-um-servidor-remoto) <br>
+[Manipulando o valor de uma variável](#manipulando-o-valor-de-uma-variável) <br>
+[Aritmética](#aritmética) <br>
 
-
-# Input de usuário
+# Options e input de usuário
 
 Podemos referenciar os inputs passados pelo usuário em cada posição com **$\<POSICAO>** dentro do script. 
 
